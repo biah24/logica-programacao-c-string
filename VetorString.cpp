@@ -11,20 +11,20 @@ int main(){
 	printf("%s\n", string);
 	printf("%s\n", string2);
 	
-	//scanf = ler só até o primeiro espaço
-	//fgets = ler com espaço
+	//scanf = ler sÃ³ atÃ© o primeiro espaÃ§o
+	//fgets = ler com espaÃ§o
 	
 	char string3[10];
 	printf("Frase: ");
 	fgets(string3, 10, stdin);
 	printf("Frase: %s\n", string3);
 	
-	//funções - biblioteca
+	//funÃ§Ãµes - biblioteca
 	char string4[] = "AlgoritmosLinguagemC";
 	int tam = strlen(string4); //tamanho da string
 	printf("Tamanho: %d\n", tam);
 	
-	//cópia
+	//cÃ³pia
 	char strcopia[10];
 	strcpy(strcopia, string3); 
 	printf("Copia: %s", strcopia);
@@ -37,7 +37,7 @@ int main(){
 	printf("Cancatenacao: %s\n", string5);
 	
 	
-	//comparação de strings
+	//comparaÃ§Ã£o de strings
 	char stringA[12] = "Testa";
 	char stringB[12] = "Test";
 	printf("String A: %s\n", stringA);
