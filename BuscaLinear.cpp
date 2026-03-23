@@ -9,9 +9,9 @@ int main() {
     printf("Digite o valor a ser buscado: ");
     scanf("%d", &valor);
 
-    // Busca bin·ria
+    // Busca bin√°ria
     while (inicio <= fim) {
-        meio = (inicio + fim) / 2;  // calcula a posiÁ„o do meio
+        meio = (inicio + fim) / 2;  // calcula a posi√ß√£o do meio
 
         if (vetor[meio] == valor) {  //valor encontrado
             printf("Valor %d encontrado na posicao %d.\n", valor, meio);
